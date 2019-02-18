@@ -8,7 +8,7 @@ def initialize(data)
 end
 
 def match(arr)
-var = data.split("").sort
- arr.each |{|x| x if x.split("").sort == var}
+ var = data.split("").sort
+ arr.each {|x| x if x.split("").sort == var}
 end
 end
