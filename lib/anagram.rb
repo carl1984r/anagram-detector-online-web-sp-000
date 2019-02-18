@@ -8,6 +8,6 @@ def initialize(data)
 end
 
 def match(data)
-  data.each {|x| x}
+  self.new
   end
 end
