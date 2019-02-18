@@ -8,6 +8,6 @@ def initialize(data)
 end
 
 def match(arr)
-  data
+  arr
 end
 end
