@@ -9,6 +9,5 @@ end
 
 def match(data)
   data.each {|x| x}
-  binding.pry
-end
+  end
 end
