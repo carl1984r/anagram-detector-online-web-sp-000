@@ -7,7 +7,7 @@ def initialize(data)
   @data = data
 end
 
-def match
+def match(arr)
 
 end
 end
