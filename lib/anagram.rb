@@ -11,5 +11,4 @@ def match(data)
   var = self.new(data)
   var_1 = var.data.split("")
 end
-binding.pry
 end
