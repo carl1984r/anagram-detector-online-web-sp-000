@@ -7,7 +7,7 @@ def initialize(data)
 end
 
 def match(data)
-  data
+  data.collect {|x| x.split}
 
 end
 
