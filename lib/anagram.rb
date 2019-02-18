@@ -8,6 +8,6 @@ def initialize(data)
 end
 
 def match(arr)
-  new.tap {|x| x.data.split("")}
+var = new.tap {|x| x.data.split("")}
   end
 end
