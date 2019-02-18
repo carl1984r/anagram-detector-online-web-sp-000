@@ -8,6 +8,6 @@ def initialize(data)
 end
 
 def match(arr)
-  arr
+  data.map {|x| x.split("")}
 end
 end
