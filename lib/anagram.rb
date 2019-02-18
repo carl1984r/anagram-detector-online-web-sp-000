@@ -8,7 +8,6 @@ def initialize(data)
 end
 
 def match(arr)
-var = new.tap {|x| x.data.split("")}
-binding.pry
+
   end
 end
