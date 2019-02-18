@@ -11,5 +11,6 @@ def match(arr)
  var = data.split("").sort
  var_1 = arr.collect {|x| x.split("").sort}
  var_1[1]
+ binding.pry
 end
 end
