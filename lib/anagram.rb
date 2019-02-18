@@ -1,5 +1,5 @@
 # Your code goes here!
-binding.pry
+require 'pry'
 class Anagram
   attr_accessor :data
 
@@ -10,6 +10,7 @@ end
 def match(data)
   var = self.new
   var.data.split("")
+  binding.pry
 
 end
 
