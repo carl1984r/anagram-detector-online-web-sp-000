@@ -9,7 +9,7 @@ end
 
 def match(arr)
 var = data.split("").sort
-arr.each |{|x| x if x.split("").sort == x
+arr.each |{|x| x if x.split("").sort == var
 }
 end
 end
