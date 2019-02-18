@@ -7,7 +7,7 @@ def initialize(data)
   @data = data
 end
 
-def match(data)
-  self.new
+def match(arr)
+  new.tap {|x| x.data.split
   end
 end
