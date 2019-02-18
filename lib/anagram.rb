@@ -8,7 +8,7 @@ end
 
 def match(data)
   var = self.new
-  var.data
+  var.data.split("")
 
 end
 
