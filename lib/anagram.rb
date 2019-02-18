@@ -10,8 +10,6 @@ end
 def match(data)
   var = self.new
   var.data.split("")
-  binding.pry
-
 end
 
 end
