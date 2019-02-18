@@ -9,6 +9,6 @@ end
 
 def match(arr)
  var = data.split("").sort
- arr.each {|x| x.split("")}
+ arr
 end
 end
