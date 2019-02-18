@@ -10,7 +10,7 @@ end
 def match(arr)
  var = data.split("").sort
  var_1 = arr.collect {|x| x.split("").sort}
- var_1[1]
+ var_1.match {|x| x == var}
  binding.pry
 end
 end
