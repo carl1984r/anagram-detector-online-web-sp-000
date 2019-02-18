@@ -10,6 +10,5 @@ end
 def match(arr)
  var = data.split("").sort
  var_1 = arr.collect {|x| x.split("").sort}
- var_1
 end
 end
