@@ -7,7 +7,7 @@ def initialize(data)
 end
 
 def match(data)
-  data.each {|x| x.split("")}
+  var = self.new
 
 end
 
