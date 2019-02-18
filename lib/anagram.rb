@@ -9,7 +9,7 @@ end
 
 def match(data)
   var = self.new
-  var.data.split("")
+  var_1 = var.data.split("")
 end
 
 end
