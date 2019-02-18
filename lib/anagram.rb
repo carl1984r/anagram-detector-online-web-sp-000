@@ -10,6 +10,6 @@ end
 def match(arr)
  var = data.split("").sort
  var_1 = arr.collect {|x| x.split("").sort}
- var_1[0]
+ var_1[1]
 end
 end
