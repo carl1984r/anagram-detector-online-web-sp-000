@@ -12,5 +12,6 @@ def match(arr)
  var = data.split("").sort
  var_1 = arr.collect {|x| x.split("").sort}
  var_1.each_with_index {|x, i| var_2 << arr[i] if x == var}
+ var_2
 end
 end
