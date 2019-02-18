@@ -1,4 +1,5 @@
 # Your code goes here!
+binding.pry
 class Anagram
   attr_accessor :data
 
