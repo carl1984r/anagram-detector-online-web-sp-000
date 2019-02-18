@@ -8,6 +8,7 @@ end
 
 def match(data)
   var = self.new
+  var.data
 
 end
 
