@@ -10,8 +10,8 @@ end
 def match(arr)
  var = data.split("").sort
  var_1 = arr.collect {|x| x.split("").sort}
-if var_1.each {|x| x.include?(var)}
-  data
+ var_1[0]
+  
 end
 end
 end
