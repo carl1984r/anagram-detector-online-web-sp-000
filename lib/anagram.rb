@@ -8,8 +8,7 @@ def initialize(data)
 end
 
 def match(data)
-  var = self.new
-  var_1 = var.data.split("")
+  data.each {|x| x}
   binding.pry
 end
 end
